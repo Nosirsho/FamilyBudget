@@ -1,0 +1,16 @@
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\FamilyBudget.exe.config
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\FamilyBudget.exe
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\FamilyBudget.pdb
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\EntityFramework.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\EntityFramework.xml
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csprojAssemblyReference.cache
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Form1.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Properties.Resources.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.GenerateResource.cache
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.CoreCompileInputs.cache
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.CopyComplete
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.exe
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.pdb
