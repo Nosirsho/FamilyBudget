@@ -70,6 +70,21 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IncCatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncCatForm.Designer.cs">
+      <DependentUpon>IncCatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010080517016_InitialCreate.cs" />
+    <Compile Include="Migrations\202010080517016_InitialCreate.Designer.cs">
+      <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010080550446_Initial.cs" />
+    <Compile Include="Migrations\202010080550446_Initial.Designer.cs">
+      <DependentUpon>202010080550446_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BudgetContext.cs" />
     <Compile Include="Models\ConsCategory.cs" />
     <Compile Include="Models\Consum.cs" />
@@ -79,6 +94,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncCatForm.resx">
+      <DependentUpon>IncCatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010080517016_InitialCreate.resx">
+      <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010080550446_Initial.resx">
+      <DependentUpon>202010080550446_Initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,6 +114,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\FamilyBudget.Models.ConsCategory.datasource" />
+    <None Include="Properties\DataSources\FamilyBudget.Models.IncCategory.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

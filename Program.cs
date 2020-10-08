@@ -12,18 +12,10 @@ namespace FamilyBudget
         [STAThread]
         static void Main()
         {
-            BudgetContext context = new BudgetContext();
-
-            IncCategory incCategory = new IncCategory();
-            incCategory.Name = "Зар.Плата";
-       
-            context.IncCategoryList.Add(incCategory);
-            context.SaveChanges();
-
-
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new IncCatForm());
         }
     }
 }
