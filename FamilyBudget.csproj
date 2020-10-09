@@ -76,6 +76,12 @@
     <Compile Include="IncCatForm.Designer.cs">
       <DependentUpon>IncCatForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IncForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncForm.Designer.cs">
+      <DependentUpon>IncForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202010080517016_InitialCreate.cs" />
     <Compile Include="Migrations\202010080517016_InitialCreate.Designer.cs">
       <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>
@@ -83,6 +89,18 @@
     <Compile Include="Migrations\202010080550446_Initial.cs" />
     <Compile Include="Migrations\202010080550446_Initial.Designer.cs">
       <DependentUpon>202010080550446_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090031093_DataTime2.cs" />
+    <Compile Include="Migrations\202010090031093_DataTime2.Designer.cs">
+      <DependentUpon>202010090031093_DataTime2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090035573_DataTime21.cs" />
+    <Compile Include="Migrations\202010090035573_DataTime21.Designer.cs">
+      <DependentUpon>202010090035573_DataTime21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202010090037207_DataTimeTrue.cs" />
+    <Compile Include="Migrations\202010090037207_DataTimeTrue.Designer.cs">
+      <DependentUpon>202010090037207_DataTimeTrue.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BudgetContext.cs" />
@@ -98,11 +116,23 @@
     <EmbeddedResource Include="IncCatForm.resx">
       <DependentUpon>IncCatForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IncForm.resx">
+      <DependentUpon>IncForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010080517016_InitialCreate.resx">
       <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010080550446_Initial.resx">
       <DependentUpon>202010080550446_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090031093_DataTime2.resx">
+      <DependentUpon>202010090031093_DataTime2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090035573_DataTime21.resx">
+      <DependentUpon>202010090035573_DataTime21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010090037207_DataTimeTrue.resx">
+      <DependentUpon>202010090037207_DataTimeTrue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -116,6 +146,7 @@
     <None Include="packages.config" />
     <None Include="Properties\DataSources\FamilyBudget.Models.ConsCategory.datasource" />
     <None Include="Properties\DataSources\FamilyBudget.Models.IncCategory.datasource" />
+    <None Include="Properties\DataSources\FamilyBudget.Models.Income.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

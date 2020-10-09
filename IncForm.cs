@@ -10,49 +10,53 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FamilyBudget {
-    public partial class IncCatForm : MetroFramework.Forms.MetroForm {
-        
-        public IncCatForm()
+namespace FamilyBudget
+{
+    public partial class IncForm : MetroFramework.Forms.MetroForm
+    {
+        public IncForm()
         {
             InitializeComponent();
         }
-        private void IncCatForm_Load(object sender, EventArgs e)
+
+        private void IncForm_Load(object sender, EventArgs e)
         {
             using (BudgetContext context = new BudgetContext())
             {
-                incCategoryBindingSource.DataSource = context.IncCategoryList.ToList();
+                incomeBindingSource.DataSource = context.IncList.ToList();
+                cbCategory.DataSource = context.IncCategoryList.ToList();
+                
             }
             metroPanel1.Enabled = false;
-            IncCategory incCatObj = incCategoryBindingSource.Current as IncCategory;
+            Income incObj = incomeBindingSource.Current as Income;
 
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             metroPanel1.Enabled = true;
-            incCategoryBindingSource.Add(new IncCategory());
-            incCategoryBindingSource.MoveLast();
-            txtName.Focus();
+            incomeBindingSource.Add(new Income());
+            incomeBindingSource.MoveLast();
+            dtDate.Focus();
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
             metroPanel1.Enabled = true;
-            txtName.Focus();
+            dtDate.Focus();
 
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             metroPanel1.Enabled = false;
-            incCategoryBindingSource.ResetBindings(false);
-            IncCatForm_Load(sender, e);
+            incomeBindingSource.ResetBindings(false);
+            IncForm_Load(sender, e);
         }
 
-        private void GridIncCategory_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void GridInc_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            IncCategory incCatObj = incCategoryBindingSource.Current as IncCategory;
+            Income incObj = incomeBindingSource.Current as Income;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -61,15 +65,15 @@ namespace FamilyBudget {
             {
                 using (BudgetContext context = new BudgetContext())
                 {
-                    IncCategory incCatObj = incCategoryBindingSource.Current as IncCategory;
-                    if (incCatObj != null)
+                    Income incObj = incomeBindingSource.Current as Income;
+                    if (incObj != null)
                     {
-                        if (context.Entry<IncCategory>(incCatObj).State == EntityState.Detached)
-                            context.Set<IncCategory>().Attach(incCatObj);
-                        context.Entry<IncCategory>(incCatObj).State = EntityState.Deleted;
+                        if (context.Entry<Income>(incObj).State == EntityState.Detached)
+                            context.Set<Income>().Attach(incObj);
+                        context.Entry<Income>(incObj).State = EntityState.Deleted;
                         context.SaveChanges();
                         MessageBox.Show(this, "Запись успешно удален");
-                        incCategoryBindingSource.RemoveCurrent();
+                        incomeBindingSource.RemoveCurrent();
                         metroPanel1.Enabled = false;
 
                     }
@@ -81,25 +85,28 @@ namespace FamilyBudget {
         {
             using (BudgetContext context = new BudgetContext())
             {
-                IncCategory incCatObj = incCategoryBindingSource.Current as IncCategory;
-                if (incCatObj != null)
+                Income incObj = incomeBindingSource.Current as Income;
+                if (incObj != null)
                 {
-                    if (context.Entry<IncCategory>(incCatObj).State == EntityState.Detached)
+                    if (context.Entry<Income>(incObj).State == EntityState.Detached)
                     {
-                        context.Set<IncCategory>().Attach(incCatObj);
-                        if (incCatObj.IncCategoryId == 0)
-                            context.Entry<IncCategory>(incCatObj).State = EntityState.Added;
+                        context.Set<Income>().Attach(incObj);
+                        if (incObj.IncomeId == 0)
+                            context.Entry<Income>(incObj).State = EntityState.Added;
                         else
-                            context.Entry<IncCategory>(incCatObj).State = EntityState.Modified;
+                            context.Entry<Income>(incObj).State = EntityState.Modified;
                         context.SaveChanges();
                         MessageBox.Show(this, "Запись успешно сохранен");
-                        GridIncCategory.Refresh();
+                        GridInc.Refresh();
                         metroPanel1.Enabled = false;
                     }
                 }
             }
         }
 
-        
+        private void cbCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(cbCategory.SelectedValue.ToString());
+        }
     }
 }

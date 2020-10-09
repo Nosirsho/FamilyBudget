@@ -37,3 +37,14 @@ C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.pdb
 C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.InitialCreate.resources
 C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.Initial.resources
 C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCatForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\MetroFramework.Design.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\MetroFramework.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCatForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.InitialCreate.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.Initial.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTime2.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTime21.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTimeTrue.resources

@@ -15,7 +15,7 @@ namespace FamilyBudget
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IncCatForm());
+            Application.Run(new IncForm());
         }
     }
 }
