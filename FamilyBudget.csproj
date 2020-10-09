@@ -70,17 +70,41 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IncCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncCategoryForm.Designer.cs">
+      <DependentUpon>IncCategoryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="IncCatForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IncCatForm.Designer.cs">
       <DependentUpon>IncCatForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IncCtForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncCtForm.Designer.cs">
+      <DependentUpon>IncCtForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="IncForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IncForm.Designer.cs">
       <DependentUpon>IncForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeAEForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeAEForm.Designer.cs">
+      <DependentUpon>IncomeAEForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IncomeForm.Designer.cs">
+      <DependentUpon>IncomeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202010080517016_InitialCreate.cs" />
     <Compile Include="Migrations\202010080517016_InitialCreate.Designer.cs">
@@ -113,11 +137,23 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IncCategoryForm.resx">
+      <DependentUpon>IncCategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IncCatForm.resx">
       <DependentUpon>IncCatForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IncCtForm.resx">
+      <DependentUpon>IncCtForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IncForm.resx">
       <DependentUpon>IncForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeAEForm.resx">
+      <DependentUpon>IncomeAEForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IncomeForm.resx">
+      <DependentUpon>IncomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202010080517016_InitialCreate.resx">
       <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>

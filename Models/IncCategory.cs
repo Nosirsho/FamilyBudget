@@ -13,5 +13,15 @@ namespace FamilyBudget.Models
         [StringLength(255)]
         public string Name { get; set; }
         public ICollection<Income> Incomes { get; set; }
+
+        public IncCategory()
+        {
+            Incomes = new List<Income>();
+        }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
+   
 }

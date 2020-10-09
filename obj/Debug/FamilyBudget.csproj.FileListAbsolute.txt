@@ -48,3 +48,7 @@ C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncForm.resou
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTime2.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTime21.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTimeTrue.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCategoryForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncomeForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncomeAEForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCtForm.resources
