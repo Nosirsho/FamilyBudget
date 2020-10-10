@@ -7,7 +7,6 @@ C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\EntityFramework.xml
 C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csprojAssemblyReference.cache
-C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Form1.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Properties.Resources.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.GenerateResource.cache
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.CoreCompileInputs.cache
@@ -41,10 +40,8 @@ C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\MetroFramework.Design.dll
 C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\MetroFramework.dll
 C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\Nosirsho\source\repos\FamilyBudget\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
-C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCatForm.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.InitialCreate.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.Initial.resources
-C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncForm.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTime2.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTime21.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Migrations.DataTimeTrue.resources
@@ -52,3 +49,7 @@ C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCategoryFo
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncomeForm.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncomeAEForm.resources
 C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.IncCtForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.ConsCategoryForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.ConsCtForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.ConsumAEForm.resources
+C:\Users\Nosirsho\source\repos\FamilyBudget\obj\Debug\FamilyBudget.ConsumForm.resources

@@ -13,5 +13,13 @@ namespace FamilyBudget.Models
         [StringLength(255)]
         public string Name { get; set; }
         public ICollection<Consum> Consums { get; set; }
+        public ConsCategory()
+        {
+            Consums = new List<Consum>();
+        }
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

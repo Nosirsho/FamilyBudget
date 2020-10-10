@@ -15,7 +15,7 @@ namespace FamilyBudget
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IncomeForm());
+            Application.Run(new ConsumForm());
         }
     }
 }
