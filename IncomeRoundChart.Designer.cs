@@ -116,7 +116,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(513, 322);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 34);
@@ -128,17 +128,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(141, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 16);
+            this.label1.Size = new System.Drawing.Size(289, 18);
             this.label1.TabIndex = 7;
             this.label1.Text = "Диаграмма доходов по категориям";
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(16, 7);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 30);

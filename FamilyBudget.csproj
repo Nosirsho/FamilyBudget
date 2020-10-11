@@ -150,27 +150,6 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202010080517016_InitialCreate.cs" />
-    <Compile Include="Migrations\202010080517016_InitialCreate.Designer.cs">
-      <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202010080550446_Initial.cs" />
-    <Compile Include="Migrations\202010080550446_Initial.Designer.cs">
-      <DependentUpon>202010080550446_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202010090031093_DataTime2.cs" />
-    <Compile Include="Migrations\202010090031093_DataTime2.Designer.cs">
-      <DependentUpon>202010090031093_DataTime2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202010090035573_DataTime21.cs" />
-    <Compile Include="Migrations\202010090035573_DataTime21.Designer.cs">
-      <DependentUpon>202010090035573_DataTime21.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202010090037207_DataTimeTrue.cs" />
-    <Compile Include="Migrations\202010090037207_DataTimeTrue.Designer.cs">
-      <DependentUpon>202010090037207_DataTimeTrue.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BudgetContext.cs" />
     <Compile Include="Models\ConsCategory.cs" />
     <Compile Include="Models\Consum.cs" />
@@ -213,21 +192,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010080517016_InitialCreate.resx">
-      <DependentUpon>202010080517016_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010080550446_Initial.resx">
-      <DependentUpon>202010080550446_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010090031093_DataTime2.resx">
-      <DependentUpon>202010090031093_DataTime2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010090035573_DataTime21.resx">
-      <DependentUpon>202010090035573_DataTime21.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202010090037207_DataTimeTrue.resx">
-      <DependentUpon>202010090037207_DataTimeTrue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

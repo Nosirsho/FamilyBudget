@@ -49,10 +49,10 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoad.Location = new System.Drawing.Point(603, 373);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(109, 23);
+            this.btnLoad.Size = new System.Drawing.Size(109, 35);
             this.btnLoad.TabIndex = 2;
             this.btnLoad.Text = "Просмотр";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -71,10 +71,10 @@
             // 
             // btnExport
             // 
-            this.btnExport.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExport.Location = new System.Drawing.Point(734, 373);
             this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(109, 23);
+            this.btnExport.Size = new System.Drawing.Size(109, 35);
             this.btnExport.TabIndex = 4;
             this.btnExport.Text = "Экспорт";
             this.btnExport.UseVisualStyleBackColor = true;
@@ -86,7 +86,7 @@
             // 
             // btnMain
             // 
-            this.btnMain.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMain.Location = new System.Drawing.Point(12, 6);
             this.btnMain.Name = "btnMain";
             this.btnMain.Size = new System.Drawing.Size(109, 33);

@@ -11,11 +11,12 @@ namespace FamilyBudget.Models
     public class Consum
     {
         public int ConsumId { get; set; }
-        [Column(TypeName = "datetime2")]
+        
+        [DataType(DataType.Date)]
         public DateTime ConsDate { get; set; }
         
         public decimal ConsSum { get; set; }
-        [StringLength(255)]
+
         public string Descr { get; set; }
         public int? ConsCategoryId { get; set; }
 

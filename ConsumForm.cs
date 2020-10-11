@@ -20,6 +20,7 @@ namespace FamilyBudget
             InitializeComponent();
             context = new BudgetContext();
             context.ConsList.Load();
+            context.ConsCategoryList.Load();
             //
             dataGridView.DataSource = context.ConsList.Local.ToBindingList();
 
@@ -119,10 +120,13 @@ namespace FamilyBudget
        
         private void btnConCat_Click(object sender, EventArgs e)
         {
+            
             this.Hide();
-            ConsCategoryForm conCategory = new ConsCategoryForm();
-            conCategory.StartPosition = FormStartPosition.CenterScreen;
-            conCategory.Show();
+            ConsCategoryForm conCatForm = new ConsCategoryForm();
+            conCatForm.Closed += (s, args) => this.Close();
+            conCatForm.StartPosition = FormStartPosition.CenterScreen;
+            conCatForm.Show();
+            
         }
 
         private void btnMain_Click(object sender, EventArgs e)

@@ -120,9 +120,10 @@ namespace FamilyBudget
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            IncCategoryForm incCategory = new IncCategoryForm();
-            incCategory.StartPosition = FormStartPosition.CenterScreen;
-            incCategory.Show();
+            IncCategoryForm incCatForm = new IncCategoryForm();
+            incCatForm.Closed += (s, args) => this.Close();
+            incCatForm.StartPosition = FormStartPosition.CenterScreen;
+            incCatForm.Show();
         }
 
         private void IncomeForm_Load(object sender, EventArgs e)

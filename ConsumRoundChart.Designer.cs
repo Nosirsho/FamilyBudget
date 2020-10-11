@@ -46,17 +46,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(159, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 16);
+            this.label1.Size = new System.Drawing.Size(296, 18);
             this.label1.TabIndex = 11;
             this.label1.Text = "Диаграмма расходов по категориям";
             // 
             // btnExport
             // 
-            this.btnExport.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnExport.Location = new System.Drawing.Point(564, 324);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(75, 34);
@@ -138,7 +138,7 @@
             // 
             // btnMain
             // 
-            this.btnMain.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnMain.Location = new System.Drawing.Point(12, 4);
             this.btnMain.Name = "btnMain";
             this.btnMain.Size = new System.Drawing.Size(74, 31);

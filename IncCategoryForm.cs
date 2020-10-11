@@ -85,5 +85,21 @@ namespace FamilyBudget
                 MessageBox.Show("Категория обновлена");
             }
         }
+
+        private void btnMain_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm mainForm = new MainForm();
+            mainForm.StartPosition = FormStartPosition.CenterScreen;
+            mainForm.Show();
+        }
+
+        private void btnIncome_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            IncomeForm incForm = new IncomeForm();
+            incForm.StartPosition = FormStartPosition.CenterScreen;
+            incForm.Show();
+        }
     }
 }

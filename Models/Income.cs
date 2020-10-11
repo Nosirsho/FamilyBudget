@@ -11,7 +11,7 @@ namespace FamilyBudget.Models
     public class Income
     {
         public int IncomeId { get; set; }
-        [Column(TypeName = "datetime2")]
+        [DataType(DataType.Date)]
         public DateTime IncDate { get; set; }
         public decimal IncSum { get; set; }
         [StringLength(255)]
