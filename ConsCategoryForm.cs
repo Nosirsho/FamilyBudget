@@ -52,7 +52,6 @@ namespace FamilyBudget
                 cCat.Consums.Clear();
                 context.ConsCategoryList.Remove(cCat);
                 context.SaveChanges();
-
                 MessageBox.Show("Категория удалена");
             }
         }

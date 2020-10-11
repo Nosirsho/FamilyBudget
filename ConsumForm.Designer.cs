@@ -58,7 +58,7 @@
             this.consCategoryDataGridViewTextBoxColumn,
             this.descrDataGridViewTextBoxColumn});
             this.dataGridView.DataSource = this.consumBindingSource;
-            this.dataGridView.Location = new System.Drawing.Point(16, 41);
+            this.dataGridView.Location = new System.Drawing.Point(16, 49);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.Size = new System.Drawing.Size(625, 357);
@@ -109,9 +109,10 @@
             // 
             // btnConCat
             // 
-            this.btnConCat.Location = new System.Drawing.Point(566, 12);
+            this.btnConCat.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConCat.Location = new System.Drawing.Point(543, 12);
             this.btnConCat.Name = "btnConCat";
-            this.btnConCat.Size = new System.Drawing.Size(75, 23);
+            this.btnConCat.Size = new System.Drawing.Size(98, 31);
             this.btnConCat.TabIndex = 9;
             this.btnConCat.Text = "Категория";
             this.btnConCat.UseVisualStyleBackColor = true;
@@ -119,7 +120,8 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(487, 404);
+            this.btnDelete.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(488, 412);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(154, 38);
             this.btnDelete.TabIndex = 8;
@@ -129,7 +131,8 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(249, 404);
+            this.btnEdit.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Location = new System.Drawing.Point(241, 412);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(154, 38);
             this.btnEdit.TabIndex = 7;
@@ -139,7 +142,8 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(16, 404);
+            this.btnAdd.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(16, 412);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(154, 38);
             this.btnAdd.TabIndex = 6;
@@ -149,9 +153,10 @@
             // 
             // btnMain
             // 
+            this.btnMain.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMain.Location = new System.Drawing.Point(16, 12);
             this.btnMain.Name = "btnMain";
-            this.btnMain.Size = new System.Drawing.Size(75, 23);
+            this.btnMain.Size = new System.Drawing.Size(75, 31);
             this.btnMain.TabIndex = 10;
             this.btnMain.Text = "Главная";
             this.btnMain.UseVisualStyleBackColor = true;
@@ -161,7 +166,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 450);
+            this.ClientSize = new System.Drawing.Size(654, 461);
             this.Controls.Add(this.btnMain);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.btnConCat);

@@ -79,5 +79,7 @@ namespace FamilyBudget {
             mainForm.StartPosition = FormStartPosition.CenterScreen;
             mainForm.Show();
         }
+
+       
     }
 }

@@ -45,13 +45,14 @@
             // dataGridView
             // 
             this.dataGridView.AllowUserToAddRows = false;
+            this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.AutoGenerateColumns = false;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.consCategoryIdDataGridViewTextBoxColumn,
             this.nameDataGridViewTextBoxColumn});
             this.dataGridView.DataSource = this.consCategoryBindingSource;
-            this.dataGridView.Location = new System.Drawing.Point(12, 35);
+            this.dataGridView.Location = new System.Drawing.Point(12, 38);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.Size = new System.Drawing.Size(330, 150);
@@ -79,9 +80,10 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(264, 191);
+            this.btnDelete.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(257, 196);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(78, 38);
+            this.btnDelete.Size = new System.Drawing.Size(85, 38);
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "Удалить";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -89,9 +91,10 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(137, 191);
+            this.btnEdit.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Location = new System.Drawing.Point(133, 196);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(78, 38);
+            this.btnEdit.Size = new System.Drawing.Size(85, 38);
             this.btnEdit.TabIndex = 9;
             this.btnEdit.Text = "Изменить";
             this.btnEdit.UseVisualStyleBackColor = true;
@@ -99,9 +102,10 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 191);
+            this.btnAdd.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(12, 196);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(78, 38);
+            this.btnAdd.Size = new System.Drawing.Size(85, 38);
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Добавить";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -109,9 +113,10 @@
             // 
             // btnMain
             // 
+            this.btnMain.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMain.Location = new System.Drawing.Point(12, 6);
             this.btnMain.Name = "btnMain";
-            this.btnMain.Size = new System.Drawing.Size(75, 23);
+            this.btnMain.Size = new System.Drawing.Size(82, 26);
             this.btnMain.TabIndex = 12;
             this.btnMain.Text = "Главная";
             this.btnMain.UseVisualStyleBackColor = true;
@@ -119,9 +124,10 @@
             // 
             // btnConsum
             // 
-            this.btnConsum.Location = new System.Drawing.Point(93, 6);
+            this.btnConsum.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsum.Location = new System.Drawing.Point(100, 6);
             this.btnConsum.Name = "btnConsum";
-            this.btnConsum.Size = new System.Drawing.Size(75, 23);
+            this.btnConsum.Size = new System.Drawing.Size(82, 26);
             this.btnConsum.TabIndex = 13;
             this.btnConsum.Text = "Расход";
             this.btnConsum.UseVisualStyleBackColor = true;

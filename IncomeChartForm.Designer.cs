@@ -41,7 +41,7 @@
             // 
             // cartesianChart1
             // 
-            this.cartesianChart1.Location = new System.Drawing.Point(12, 35);
+            this.cartesianChart1.Location = new System.Drawing.Point(12, 45);
             this.cartesianChart1.Name = "cartesianChart1";
             this.cartesianChart1.Size = new System.Drawing.Size(571, 351);
             this.cartesianChart1.TabIndex = 0;
@@ -49,7 +49,8 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(603, 363);
+            this.btnLoad.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoad.Location = new System.Drawing.Point(603, 373);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(109, 23);
             this.btnLoad.TabIndex = 2;
@@ -62,7 +63,7 @@
             this.dataGridView.AllowUserToAddRows = false;
             this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(603, 35);
+            this.dataGridView.Location = new System.Drawing.Point(603, 45);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.Size = new System.Drawing.Size(240, 312);
@@ -70,7 +71,8 @@
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(734, 363);
+            this.btnExport.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Location = new System.Drawing.Point(734, 373);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(109, 23);
             this.btnExport.TabIndex = 4;
@@ -84,9 +86,10 @@
             // 
             // btnMain
             // 
+            this.btnMain.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMain.Location = new System.Drawing.Point(12, 6);
             this.btnMain.Name = "btnMain";
-            this.btnMain.Size = new System.Drawing.Size(109, 23);
+            this.btnMain.Size = new System.Drawing.Size(109, 33);
             this.btnMain.TabIndex = 5;
             this.btnMain.Text = "Главная";
             this.btnMain.UseVisualStyleBackColor = true;
@@ -96,12 +99,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 418);
+            this.ClientSize = new System.Drawing.Size(860, 411);
             this.Controls.Add(this.btnMain);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.cartesianChart1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "IncomeChartForm";
             this.Text = "Приход - Расход";
             this.Load += new System.EventHandler(this.IncomeChartForm_Load);

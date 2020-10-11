@@ -25,7 +25,6 @@ C:\Users\KholmamadovN\source\repos\FamilyBudget\bin\Debug\EntityFramework.xml
 C:\Users\KholmamadovN\source\repos\FamilyBudget\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\KholmamadovN\source\repos\FamilyBudget\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\KholmamadovN\source\repos\FamilyBudget\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
-C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csprojAssemblyReference.cache
 C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.Properties.Resources.resources
 C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.GenerateResource.cache
 C:\Users\KholmamadovN\source\repos\FamilyBudget\obj\Debug\FamilyBudget.csproj.CoreCompileInputs.cache

@@ -39,9 +39,10 @@
             // 
             // btnIncome
             // 
+            this.btnIncome.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIncome.Location = new System.Drawing.Point(22, 19);
             this.btnIncome.Name = "btnIncome";
-            this.btnIncome.Size = new System.Drawing.Size(182, 42);
+            this.btnIncome.Size = new System.Drawing.Size(200, 42);
             this.btnIncome.TabIndex = 0;
             this.btnIncome.Text = "Доход";
             this.btnIncome.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // 
             // btnConsum
             // 
+            this.btnConsum.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsum.Location = new System.Drawing.Point(22, 67);
             this.btnConsum.Name = "btnConsum";
-            this.btnConsum.Size = new System.Drawing.Size(182, 42);
+            this.btnConsum.Size = new System.Drawing.Size(200, 42);
             this.btnConsum.TabIndex = 1;
             this.btnConsum.Text = "Расход";
             this.btnConsum.UseVisualStyleBackColor = true;
@@ -61,9 +63,10 @@
             // 
             this.groupBox1.Controls.Add(this.btnIncome);
             this.groupBox1.Controls.Add(this.btnConsum);
+            this.groupBox1.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(18, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(230, 123);
+            this.groupBox1.Size = new System.Drawing.Size(248, 123);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление расходов и доходов";
@@ -73,18 +76,20 @@
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btnConsChart);
             this.groupBox2.Controls.Add(this.btnIncChart);
+            this.groupBox2.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(18, 141);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(230, 167);
+            this.groupBox2.Size = new System.Drawing.Size(248, 167);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Отчеты";
             // 
             // btnConsChart
             // 
+            this.btnConsChart.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsChart.Location = new System.Drawing.Point(22, 64);
             this.btnConsChart.Name = "btnConsChart";
-            this.btnConsChart.Size = new System.Drawing.Size(182, 39);
+            this.btnConsChart.Size = new System.Drawing.Size(200, 39);
             this.btnConsChart.TabIndex = 3;
             this.btnConsChart.Text = "Расходы по категориям";
             this.btnConsChart.UseVisualStyleBackColor = true;
@@ -92,9 +97,10 @@
             // 
             // btnIncChart
             // 
+            this.btnIncChart.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIncChart.Location = new System.Drawing.Point(22, 19);
             this.btnIncChart.Name = "btnIncChart";
-            this.btnIncChart.Size = new System.Drawing.Size(182, 39);
+            this.btnIncChart.Size = new System.Drawing.Size(200, 39);
             this.btnIncChart.TabIndex = 2;
             this.btnIncChart.Text = "Доходы по категориям";
             this.btnIncChart.UseVisualStyleBackColor = true;
@@ -102,9 +108,10 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(22, 109);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 39);
+            this.button1.Size = new System.Drawing.Size(200, 39);
             this.button1.TabIndex = 4;
             this.button1.Text = "Даходы и расходы";
             this.button1.UseVisualStyleBackColor = true;
@@ -117,8 +124,9 @@
             this.ClientSize = new System.Drawing.Size(290, 335);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "Бюджет";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);

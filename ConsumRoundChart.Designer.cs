@@ -33,12 +33,12 @@
             this.pieChart1 = new LiveCharts.Wpf.PieChart();
             this.consumBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.btnMain = new System.Windows.Forms.Button();
             this.consumIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.consDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.consSumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.consCategoryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descrDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnMain = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.consumBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
@@ -46,17 +46,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(158, 5);
+            this.label1.Location = new System.Drawing.Point(159, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(317, 20);
+            this.label1.Size = new System.Drawing.Size(253, 16);
             this.label1.TabIndex = 11;
             this.label1.Text = "Диаграмма расходов по категориям";
             // 
             // btnExport
             // 
-            this.btnExport.Location = new System.Drawing.Point(565, 317);
+            this.btnExport.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Location = new System.Drawing.Point(564, 324);
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(75, 34);
             this.btnExport.TabIndex = 10;
@@ -66,7 +67,7 @@
             // 
             // elementHost1
             // 
-            this.elementHost1.Location = new System.Drawing.Point(13, 34);
+            this.elementHost1.Location = new System.Drawing.Point(12, 41);
             this.elementHost1.Name = "elementHost1";
             this.elementHost1.Size = new System.Drawing.Size(546, 317);
             this.elementHost1.TabIndex = 9;
@@ -90,21 +91,11 @@
             this.consCategoryDataGridViewTextBoxColumn,
             this.descrDataGridViewTextBoxColumn});
             this.dataGridView.DataSource = this.consumBindingSource;
-            this.dataGridView.Location = new System.Drawing.Point(13, 357);
+            this.dataGridView.Location = new System.Drawing.Point(12, 364);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(627, 128);
+            this.dataGridView.Size = new System.Drawing.Size(627, 141);
             this.dataGridView.TabIndex = 12;
-            // 
-            // btnMain
-            // 
-            this.btnMain.Location = new System.Drawing.Point(12, 4);
-            this.btnMain.Name = "btnMain";
-            this.btnMain.Size = new System.Drawing.Size(74, 24);
-            this.btnMain.TabIndex = 10;
-            this.btnMain.Text = "Главная";
-            this.btnMain.UseVisualStyleBackColor = true;
-            this.btnMain.Click += new System.EventHandler(this.btnMain_Click);
             // 
             // consumIdDataGridViewTextBoxColumn
             // 
@@ -145,11 +136,22 @@
             this.descrDataGridViewTextBoxColumn.ReadOnly = true;
             this.descrDataGridViewTextBoxColumn.Width = 200;
             // 
+            // btnMain
+            // 
+            this.btnMain.Font = new System.Drawing.Font("Minion", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMain.Location = new System.Drawing.Point(12, 4);
+            this.btnMain.Name = "btnMain";
+            this.btnMain.Size = new System.Drawing.Size(74, 31);
+            this.btnMain.TabIndex = 10;
+            this.btnMain.Text = "Главная";
+            this.btnMain.UseVisualStyleBackColor = true;
+            this.btnMain.Click += new System.EventHandler(this.btnMain_Click);
+            // 
             // ConsumRoundChart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 489);
+            this.ClientSize = new System.Drawing.Size(647, 513);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMain);
