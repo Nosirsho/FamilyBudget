@@ -30,15 +30,16 @@
             this.btnConsum = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnIncChart = new System.Windows.Forms.Button();
             this.btnConsChart = new System.Windows.Forms.Button();
+            this.btnIncChart = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnIncome
             // 
-            this.btnIncome.Location = new System.Drawing.Point(6, 19);
+            this.btnIncome.Location = new System.Drawing.Point(22, 19);
             this.btnIncome.Name = "btnIncome";
             this.btnIncome.Size = new System.Drawing.Size(182, 42);
             this.btnIncome.TabIndex = 0;
@@ -48,7 +49,7 @@
             // 
             // btnConsum
             // 
-            this.btnConsum.Location = new System.Drawing.Point(6, 67);
+            this.btnConsum.Location = new System.Drawing.Point(22, 67);
             this.btnConsum.Name = "btnConsum";
             this.btnConsum.Size = new System.Drawing.Size(182, 42);
             this.btnConsum.TabIndex = 1;
@@ -60,15 +61,16 @@
             // 
             this.groupBox1.Controls.Add(this.btnIncome);
             this.groupBox1.Controls.Add(this.btnConsum);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(18, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(236, 123);
+            this.groupBox1.Size = new System.Drawing.Size(230, 123);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление расходов и доходов";
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.btnConsChart);
             this.groupBox2.Controls.Add(this.btnIncChart);
             this.groupBox2.Location = new System.Drawing.Point(18, 141);
@@ -77,6 +79,16 @@
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Отчеты";
+            // 
+            // btnConsChart
+            // 
+            this.btnConsChart.Location = new System.Drawing.Point(22, 64);
+            this.btnConsChart.Name = "btnConsChart";
+            this.btnConsChart.Size = new System.Drawing.Size(182, 39);
+            this.btnConsChart.TabIndex = 3;
+            this.btnConsChart.Text = "Расходы по категориям";
+            this.btnConsChart.UseVisualStyleBackColor = true;
+            this.btnConsChart.Click += new System.EventHandler(this.btnConsChart_Click);
             // 
             // btnIncChart
             // 
@@ -88,15 +100,15 @@
             this.btnIncChart.UseVisualStyleBackColor = true;
             this.btnIncChart.Click += new System.EventHandler(this.btnIncChart_Click);
             // 
-            // btnConsChart
+            // button1
             // 
-            this.btnConsChart.Location = new System.Drawing.Point(22, 64);
-            this.btnConsChart.Name = "btnConsChart";
-            this.btnConsChart.Size = new System.Drawing.Size(182, 39);
-            this.btnConsChart.TabIndex = 3;
-            this.btnConsChart.Text = "Расходы по категориям";
-            this.btnConsChart.UseVisualStyleBackColor = true;
-            this.btnConsChart.Click += new System.EventHandler(this.btnConsChart_Click);
+            this.button1.Location = new System.Drawing.Point(22, 109);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 39);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Даходы и расходы";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
@@ -121,5 +133,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnConsChart;
         private System.Windows.Forms.Button btnIncChart;
+        private System.Windows.Forms.Button button1;
     }
 }

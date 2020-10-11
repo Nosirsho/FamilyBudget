@@ -47,5 +47,13 @@ namespace FamilyBudget {
             consChart.StartPosition = FormStartPosition.CenterScreen;
             consChart.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            IncomeChartForm incChartForm = new IncomeChartForm();
+            incChartForm.StartPosition = FormStartPosition.CenterScreen;
+            incChartForm.Show();
+        }
     }
 }
