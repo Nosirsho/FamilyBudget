@@ -102,8 +102,9 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOK);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ConsCtForm";
-            this.Text = "ConsCtForm";
+            this.Text = "Добавление расходов";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -20,6 +20,7 @@ namespace FamilyBudget
             InitializeComponent();
             context = new BudgetContext();
             context.IncList.Load();
+            context.IncCategoryList.Load();
             //
             dataGridView.DataSource = context.IncList.Local.ToBindingList();
 
@@ -118,13 +119,23 @@ namespace FamilyBudget
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             IncCategoryForm incCategory = new IncCategoryForm();
+            incCategory.StartPosition = FormStartPosition.CenterScreen;
             incCategory.Show();
         }
 
         private void IncomeForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnMain_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm mainForm = new MainForm();
+            mainForm.StartPosition = FormStartPosition.CenterScreen;
+            mainForm.Show();
         }
     }
 }

@@ -34,6 +34,7 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnMain = new System.Windows.Forms.Button();
             this.incomeIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.incDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.incSumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,15 +58,15 @@
             this.incCategoryDataGridViewTextBoxColumn,
             this.descrDataGridViewTextBoxColumn});
             this.dataGridView.DataSource = this.incomeBindingSource;
-            this.dataGridView.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView.Location = new System.Drawing.Point(12, 41);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(776, 357);
+            this.dataGridView.Size = new System.Drawing.Size(624, 357);
             this.dataGridView.TabIndex = 0;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(33, 386);
+            this.btnAdd.Location = new System.Drawing.Point(12, 404);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(154, 38);
             this.btnAdd.TabIndex = 1;
@@ -75,7 +76,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(221, 386);
+            this.btnEdit.Location = new System.Drawing.Point(240, 404);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(154, 38);
             this.btnEdit.TabIndex = 2;
@@ -85,7 +86,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(407, 386);
+            this.btnDelete.Location = new System.Drawing.Point(482, 404);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(154, 38);
             this.btnDelete.TabIndex = 3;
@@ -95,7 +96,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(663, 386);
+            this.button1.Location = new System.Drawing.Point(556, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -103,12 +104,23 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnMain
+            // 
+            this.btnMain.Location = new System.Drawing.Point(12, 12);
+            this.btnMain.Name = "btnMain";
+            this.btnMain.Size = new System.Drawing.Size(75, 23);
+            this.btnMain.TabIndex = 5;
+            this.btnMain.Text = "Главная";
+            this.btnMain.UseVisualStyleBackColor = true;
+            this.btnMain.Click += new System.EventHandler(this.btnMain_Click);
+            // 
             // incomeIdDataGridViewTextBoxColumn
             // 
             this.incomeIdDataGridViewTextBoxColumn.DataPropertyName = "IncomeId";
             this.incomeIdDataGridViewTextBoxColumn.HeaderText = "Id";
             this.incomeIdDataGridViewTextBoxColumn.Name = "incomeIdDataGridViewTextBoxColumn";
             this.incomeIdDataGridViewTextBoxColumn.ReadOnly = true;
+            this.incomeIdDataGridViewTextBoxColumn.Width = 50;
             // 
             // incDateDataGridViewTextBoxColumn
             // 
@@ -116,6 +128,7 @@
             this.incDateDataGridViewTextBoxColumn.HeaderText = "Дата";
             this.incDateDataGridViewTextBoxColumn.Name = "incDateDataGridViewTextBoxColumn";
             this.incDateDataGridViewTextBoxColumn.ReadOnly = true;
+            this.incDateDataGridViewTextBoxColumn.Width = 80;
             // 
             // incSumDataGridViewTextBoxColumn
             // 
@@ -130,6 +143,7 @@
             this.incCategoryDataGridViewTextBoxColumn.HeaderText = "Категоория";
             this.incCategoryDataGridViewTextBoxColumn.Name = "incCategoryDataGridViewTextBoxColumn";
             this.incCategoryDataGridViewTextBoxColumn.ReadOnly = true;
+            this.incCategoryDataGridViewTextBoxColumn.Width = 150;
             // 
             // descrDataGridViewTextBoxColumn
             // 
@@ -137,6 +151,7 @@
             this.descrDataGridViewTextBoxColumn.HeaderText = "Описание";
             this.descrDataGridViewTextBoxColumn.Name = "descrDataGridViewTextBoxColumn";
             this.descrDataGridViewTextBoxColumn.ReadOnly = true;
+            this.descrDataGridViewTextBoxColumn.Width = 200;
             // 
             // incomeBindingSource
             // 
@@ -146,14 +161,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(643, 454);
+            this.Controls.Add(this.btnMain);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dataGridView);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "IncomeForm";
-            this.Text = "IncomeForm";
+            this.Text = "Приход";
             this.Load += new System.EventHandler(this.IncomeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.incomeBindingSource)).EndInit();
@@ -169,6 +187,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.BindingSource incomeBindingSource;
+        private System.Windows.Forms.Button btnMain;
         private System.Windows.Forms.DataGridViewTextBoxColumn incomeIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn incDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn incSumDataGridViewTextBoxColumn;

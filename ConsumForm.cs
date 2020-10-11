@@ -119,8 +119,18 @@ namespace FamilyBudget
        
         private void btnConCat_Click(object sender, EventArgs e)
         {
+            this.Hide();
             ConsCategoryForm conCategory = new ConsCategoryForm();
+            conCategory.StartPosition = FormStartPosition.CenterScreen;
             conCategory.Show();
+        }
+
+        private void btnMain_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm mainForm = new MainForm();
+            mainForm.StartPosition = FormStartPosition.CenterScreen;
+            mainForm.Show();
         }
     }
 }

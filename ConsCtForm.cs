@@ -15,6 +15,7 @@ namespace FamilyBudget
         public ConsCtForm()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }

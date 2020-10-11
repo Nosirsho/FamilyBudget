@@ -114,6 +114,7 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "IncCategoryForm";
             this.Text = "IncCategoryForm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();

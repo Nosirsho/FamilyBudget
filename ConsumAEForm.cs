@@ -15,6 +15,7 @@ namespace FamilyBudget
         public ConsumAEForm()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }

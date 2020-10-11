@@ -190,6 +190,7 @@
             this.Controls.Add(this.dtDate);
             this.Controls.Add(this.cbCategory);
             this.Controls.Add(this.txtDescr);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "ConsumAEForm";
             this.Text = "ConsumAEForm";
             this.ResumeLayout(false);

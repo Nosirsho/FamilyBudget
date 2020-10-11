@@ -15,6 +15,7 @@ namespace FamilyBudget
         public IncomeAEForm()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }
